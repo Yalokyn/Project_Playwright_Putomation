@@ -1,21 +1,34 @@
-# 🎭 Playwright Automation BDD - SauceDemo
+# 🎭 Testes Automatizados com Playwright - Sauce Demo
 
-Este repositório contém um projeto de automação de testes End-to-End (E2E) utilizando **Playwright** integrado com **BDD (Gherkin)**. O sistema alvo dos testes é o site de demonstração [SauceDemo](https://www.saucedemo.com/).
+Projeto de testes automatizados web utilizando Playwright com a abordagem BDD (Gherkin).
 
-[![Playwright E2E Tests with Gherkin](https://github.com/Yalokyn/Project_Playwright_Putomation/actions/workflows/playwright.yml/badge.svg)](https://github.com/Yalokyn/Project_Playwright_Putomation/actions/workflows/playwright.yml)
+## Site testado
 
-## 🛠️ Tecnologias Utilizadas
+**Sauce Demo** — [https://www.saucedemo.com](https://www.saucedemo.com/)
+É um site de e-commerce fictício feito justamente pra praticar automação de testes.
 
-* **[Node.js](https://nodejs.org/)**: Ambiente de execução JavaScript.
-* **[Playwright](https://playwright.dev/)**: Framework de automação E2E de testes web.
-* **[Playwright-BDD](https://github.com/vitalets/playwright-bdd)**: Integração nativa para rodar cenários Gherkin no Playwright.
-* **[GitHub Actions](https://github.com/features/actions)**: Pipeline de CI/CD para execução automatizada dos testes.
+## Funcionalidades cobertas
 
-## 📂 Estrutura do Projeto
+| Funcionalidade | Cenários | Feature |
+| :--- | :--- | :--- |
+| Login | 2 cenários | `features/login.feature` |
+| Carrinho de Compras | 1 cenário | `features/carrinho.feature` |
+| Checkout | 1 cenário | `features/checkout.feature` |
+| Logout | 1 cenário | `features/logout.feature` |
+
+## Estrutura do projeto
 
 ```text
-├── .github/workflows/   # Configuração da pipeline de CI/CD do GitHub Actions
-├── features/            # Especificações de requisitos no formato Gherkin (.feature)
-├── steps/               # Implementação dos passos de automação (Step Definitions)
-├── playwright.config.ts # Configurações globais do Playwright
-└── package.json         # Dependências e scripts do projeto
+Project_Playwright_Putomation/
+├── .github/
+│   └── workflows/
+│       └── playwright.yml    # Pipeline de CI com GitHub Actions
+├── features/                 # Cenários escritos em Gherkin (BDD)
+│   ├── login.feature
+│   ├── carrinho.feature
+│   ├── checkout.feature
+│   └── logout.feature
+├── steps/                    # Mapeamento dos passos das features (Step Definitions)
+│   └── steps.ts              
+├── playwright.config.ts      # Configurações globais do Playwright e BDD
+└── package.json
