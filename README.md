@@ -7,7 +7,7 @@ Projeto de testes automatizados web utilizando Playwright com a abordagem BDD (G
 **Sauce Demo** — [https://www.saucedemo.com](https://www.saucedemo.com/)
 É um site de e-commerce fictício feito justamente pra praticar automação de testes.
 
-## Funcionalidades cobertas
+## 🛠️Funcionalidades cobertas
 
 | Funcionalidade | Cenários | Feature |
 | :--- | :--- | :--- |
@@ -16,7 +16,7 @@ Projeto de testes automatizados web utilizando Playwright com a abordagem BDD (G
 | Checkout | 1 cenário | `features/checkout.feature` |
 | Logout | 1 cenário | `features/logout.feature` |
 
-## Estrutura do projeto
+## 📂Estrutura do projeto
 
 ```text
 Project_Playwright_Putomation/
