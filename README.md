@@ -2,7 +2,7 @@
 
 Este repositório contém um projeto de automação de testes End-to-End (E2E) utilizando **Playwright** integrado com **BDD (Gherkin)**. O sistema alvo dos testes é o site de demonstração [SauceDemo](https://www.saucedemo.com/).
 
-[![Playwright E2E Tests with Gherkin](https://github.com/SEU-USUARIO/Project_Playwright_Putomation/actions/workflows/playwright.yml/badge.svg)](https://github.com/SEU-USUARIO/Project_Playwright_Putomation/actions/workflows/playwright.yml)
+[![Playwright E2E Tests with Gherkin](https://github.com/Yalokyn/Project_Playwright_Putomation/actions/workflows/playwright.yml/badge.svg)](https://github.com/Yalokyn/Project_Playwright_Putomation/actions/workflows/playwright.yml)
 
 ## 🛠️ Tecnologias Utilizadas
 
